@@ -1,0 +1,402 @@
+/*Css of Dashboard*/
+
+.logout{
+	padding-left: 15px;
+}
+
+.main-body{
+	margin-top: 70px;
+}
+
+.card-len{
+	height: 200px;
+}
+
+.edit_member{
+  box-shadow: 1px 1px 2px 1px black;
+  padding: 35px;
+  border-radius: 25px;
+}
+
+.edit_member:hover{
+  transition: 0.2s;
+  box-shadow: 1px 1px 7px 1px black;
+}
+
+
+/*Css of index page*/
+
+.a1 {
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.a1:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: green;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.a1:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.f-header{
+	padding: 14px;
+	background-color: #515151;
+	color: white;
+}
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 200px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+.tag-line{
+	background-color: red;
+	margin-top: 26px;
+	color: white;
+	padding: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-shadow: 2px 2px grey;
+	border-radius: 25px;
+	box-shadow: 1px 1px 5px 1px black;
+}
+
+.tag-line:hover{
+	transition: 0.9s;
+	box-shadow: 1px 1px 8px 3px black;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 50px !important;
+    height: 50px !important;  
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.shaking:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.project{
+  margin-top: 30px;
+  background-color: white;  
+}
+
+.project-card{
+  padding: 30px;
+}    
+
+.story-sec-first{
+  margin-top: 30px;
+  height: 100px;
+  background-color: white;
+}
+
+.youtube{
+  margin-top: 30px;
+}
+
+.story-sec{
+  margin-top: 30px;
+}
+
+.card-birth{
+  width: 200px;
+  height: 300px;
+}
+
+
+.videos-btn{
+  position: relative;
+  background-color: #FB5F1C;
+  color: white;
+  margin-bottom: 30px;
+  padding: 15px;
+  font-size: 26px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.titles{
+    background-color: white;
+    box-shadow: 1px 1px 15px 1px black;
+    padding: 15px;
+  }
+
+.card-title{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width:768px){
+    .t_video{
+    max-width: 300px !important;
+    max-height: 250px !important;
+    }   
+}
+
+.t_video{
+  width: 460px;
+  height: 315px;
+}
+
+/*footer*/
+.youtube{
+  margin-top: 30px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 120px;
+  right: 20px;
+  border-radius: 20px;
+  background: url("");
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.icon-sec{
+  padding-right: 40px;
+}
+
+.social-icons{
+  margin-left: 6px;
+}
+
+.footer-text{
+  color: #E0DDDC;
+  text-align: right;
+}
+
+.footer{
+  text-align: right;
+  padding-right: 20%;
+}
+
+.footer-link{
+  color: aqua;
+}
+
+
+
+.container-fluid-footer {
+    width: 100%;
+    padding-right: 120px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#board-member{
+  padding-left: 70px;
+}
+
+@media screen and (max-width:478px){
+    #board-member{
+      padding-left: 0px !important;
+    }  
+}
+
+@media screen and (max-width:947px){
+    .chapter_form{
+      width: 200px !important;
+    } 
+
+    .chapter_body{
+      width: 400px !important;
+    } 
+}
+
+
+@media screen and (max-width:576px){
+    .member-card{
+      height: auto;
+      max-width: 16rem !important;
+      border-radius: 10px;
+      box-shadow: 1px 1px 6px 2px black;
+    }  
+
+    .event{
+      max-width: 300px !important;
+    }
+
+    .event-video{
+      width: 300px !important;
+      height: 200px !important;
+    }
+}
+
+.event-video{
+  width: 450px;
+  height: 300px;
+}
+
+.event{
+  max-width: 250px;
+  max-height: 200px;
+}
+
+.event-modal{
+  max-width: 650px;
+  max-height: 600px; 
+}
+
+.member-card{
+  max-width: 32rem;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px 2px black;
+}
+
+
+#mySidenav{
+  z-index: 1000;
+}
+
+#mySidenav #pi {
+  position: absolute;
+  top: -340px;
+  transition: 0.3s;
+  padding: 15px;
+  left: 0px !important;
+  width: 100%;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav #pi:hover {
+ top: -150px;
+}
+
+.profile-body{
+      box-shadow: 1px 1px 10px 3px black;
+      padding: 10px;
+      border-radius: 15px;
+}
+
+.about{
+  box-shadow: 1px 1px 15px 1px black;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.filter{
+  padding: 12px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px 1px black;
+}
+
+.filter:hover{
+  transition: 0.3s;
+  box-shadow: none;
+}
